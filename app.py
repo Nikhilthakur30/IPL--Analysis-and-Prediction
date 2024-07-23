@@ -4,6 +4,21 @@ import pandas as pd
 
 # Set page config
 st.set_page_config(page_title="IPL Win Predictor", layout="wide")
+st.markdown(
+    """
+    <style>
+    .centered-title {
+        font-size:50px;
+        text-align: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Centered title
+st.markdown('<div class="centered-title">IPL Win Predictor</div>', unsafe_allow_html=True)
+
 
 # Custom CSS with blurred background image
 st.markdown("""
